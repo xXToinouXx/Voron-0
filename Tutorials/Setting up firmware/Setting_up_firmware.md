@@ -50,7 +50,9 @@ Once it's done, you'll see that many files have appeared on our SD card. To conf
 
 Replace Your Wifi with your WiFi name and Your Password with your WiFi password. Keep the " ".
 
-## SKR Pico setup (V1.0)
+## SKR Pico setup (V1.0) - USB communication
+
+Now we need to compile the firmware for the MCU, in this case the SKR Pico. This is the configuration for USB communication.
 
 1) Insert the micro SD card in your BTT Pi. Wait 1-2 mins.
 
