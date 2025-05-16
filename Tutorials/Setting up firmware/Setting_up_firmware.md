@@ -20,6 +20,8 @@ Please note that we will first run the USB communication, which enables us to ru
 
 ### Preparation
 
+Install a SSH software (I use MobaXterm) and an image writer software (I use Balena Etcher)
+
 The BTT Pi is BigTreeTech's copy of the Raspberry Pi, optimized for 3D printing. The biggest difference is that it runs on a distribution derived from Armbian, so some commands are specific to that.
 
 We're going to flash the controller via USB. You'll need to install a jumper on the pins in red (for 5V power supply).
@@ -27,3 +29,35 @@ We're going to flash the controller via USB. You'll need to install a jumper on 
 ![5V Jumper](Images/BTT-5V-JUMPER.png)
 
 Remember to disconnect it when you supply the controller with 24V if you don't want to set your house on fire.
+
+### OS flashing
+
+Please download the official [image](https://github.com/bigtreetech/CB1/releases) from BTT's GitHub.
+
+(Choose the latest Klipper file, it will include Klipper, Mainsail, etc... As a general rule, we want the heaviest .img.xz file..)
+
+1) Insert the micro SD card into your computer.
+
+2) Click on Flash From File
+
+3) Select the target device, in our case the micro SD card.
+
+4) Click on Flash and wait until it's done.
+
+### WiFi setting
+
+Once it's done, you'll see that many files have appeared on our SD card. To configure wifi, open system.cfg
+
+Replace Your Wifi with your WiFi name and Your Password with your WiFi password. Keep the " ".
+
+### Configuration of the BTT Pi
+
+1) Insert the micro SD card in your BTT Pi. Wait 1-2 mins.
+
+2) Find the BTT Pi's IP adress. I use my router's user interface
+
+3) Enter this IP adress in your SSH software.
+
+'login : biqu'
+'password : biqu'
+
