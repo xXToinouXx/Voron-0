@@ -21,5 +21,5 @@ Please note that we will first run the USB communication, which enables us to ru
 The BTT Pi is BigTreeTech's copy of the Raspberry Pi, optimized for 3D printing. The biggest difference is that it runs on a distribution derived from Armbian, so some commands are specific to that.
 
 We're going to flash the controller via USB. You'll need to install a jumper on the pins (5V power supply).
-
+![5V Jumper](images/BTT-5V-JUMPERpng)
 Remember to disconnect it when you supply the controller with 24V if you don't want to set your house on fire.
