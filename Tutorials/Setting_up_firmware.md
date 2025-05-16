@@ -14,4 +14,6 @@ What's more, the umbilical cable supplied with the kit is very stiff and ended u
 I therefore opted for CAN BUS communication ([as per Mepherotus' excellent guide](https://github.com/rootiest/zippy_guides/blob/main/guides/pico_can.md)
 ), as the SKR Pico doesn't need a CAN USB adapter. So it's possible to do CANBUS for only $30-35.
 
-Translated with DeepL.com (free version)
+##BTT Pi setup
+
+The BTT Pi is BigTreeTech's copy of the Raspberry Pi, optimized for 3D printing. The biggest difference is that it runs on a distribution derived from Armbian, so some commands are specific to that.
