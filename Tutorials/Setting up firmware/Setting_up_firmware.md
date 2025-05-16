@@ -50,13 +50,15 @@ Once it's done, you'll see that many files have appeared on our SD card. To conf
 
 Replace Your Wifi with your WiFi name and Your Password with your WiFi password. Keep the " ".
 
-### Configuration of the BTT Pi
+## SKR Pico setup (V1.0)
 
 1) Insert the micro SD card in your BTT Pi. Wait 1-2 mins.
 
 2) Find the BTT Pi's IP adress. I use my router's user interface
 
 3) Enter this IP adress in your SSH software.
+
+4) Login as biqu
 
 login : `biqu`
 
