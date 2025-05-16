@@ -58,7 +58,7 @@ Replace Your Wifi with your WiFi name and Your Password with your WiFi password.
 
 3) Enter this IP adress in your SSH software.
 
-`login : biqu`
+login : `biqu`
 
-`password : biqu`
+password : `biqu`
 
